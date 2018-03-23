@@ -14,6 +14,11 @@ f) O(n)
 g) O(n)
 
 
+Excercise 3
+
+a) If the smallest element is picked then O(n) = n ^ 2 since T(n) = T(0) + T(n-1) <= n * T(n - 1) <= n * T(n) => O(n ^2)
+b) If median is picked then O(n) = n log n, Since at each step the problem size reduces by half and this happens n times.
 
 
+Excercise 2
 
